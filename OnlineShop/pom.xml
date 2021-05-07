@@ -39,8 +39,8 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
 	<build>
+	<finalName>OnlineShop</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
