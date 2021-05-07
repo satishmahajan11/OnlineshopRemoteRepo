@@ -16,4 +16,8 @@ public class TestController {
 	public ResponseEntity<String> sayHi(){
 		return new ResponseEntity<String>("Hi To All",HttpStatus.OK);
 	}
+	@RequestMapping(value="/welcome")
+	public ResponseEntity<String> greetUser(){
+		return new ResponseEntity<String>("Welcome to DevOps Session ",HttpStatus.OK);
+	}
 }
